@@ -1,0 +1,261 @@
+
+:root{
+  --pink:  hsl(322, 100%, 66%);
+  --darkc: hsl(192, 100%, 9%);
+  --palec: hsl(193, 100%, 96%);
+  --gb: hsl(208, 11%, 55%);
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+body{
+  background-color: var(--palec);
+}
+
+
+.left-nav img{
+  margin-top: 3rem;
+  margin-left: 5rem;
+  width:10rem;
+}
+
+
+.btn{
+  margin-top: 3rem;
+  margin-right: 5rem;
+  padding: 0.8rem 3.5rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+ .btn-primary{
+  background: #fff;
+  color: var(--darkc);
+  box-shadow: 0.1rem 0.2rem 2rem #D3D3D3;
+  font-weight: 600;
+  transition: all .2s ease;
+}
+
+.btn-primary:hover{
+  background: var(--pink);
+  cursor: pointer;
+  color: #fff;
+}
+
+.s1-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.s1-right-main img{
+  width: 35rem;
+  margin-top: 3.2rem;
+  margin-right: 4rem;
+}
+
+
+.s1-left-main{
+  margin-top: 7rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.s1-left-main h1{
+  align-self: center;
+  margin-right: 3rem;
+}
+
+.s1-left-main p{
+  margin-top: 2.1rem;
+}
+
+.btn-secondary{
+  background: var(--pink);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.btn-secondary:hover{
+  background: #fff;
+  color: var(--darkc);
+  cursor:pointer;
+  box-shadow: 0.1rem 0.2rem 2rem #D3D3D3;
+}
+
+
+header{
+  margin-bottom: -5.5rem;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+  margin-top: 10rem;
+  box-shadow: 0.1rem 0.2rem 2.5rem #D3D3D3;
+  background:#fff;
+  border-radius: 0.6rem;
+}
+
+main, section{
+  background: #fff;
+}
+
+.s2-part1{
+  margin-top:10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p1-l h1{
+  padding-top: 6rem;
+  padding-left: 5rem;
+  color: var(--darkc);
+}
+
+.p1-l p{
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  color:var(--gb);
+}
+
+.p1-r img{
+  margin-top: 3rem;
+  margin-right: 3rem;
+  margin-left: 11rem;
+  margin-bottom: 1.5rem;
+  width: 20rem;
+}
+
+.s2-part2{
+  margin-top: -8rem;
+  display: flex;
+  justify-content: space-between;
+  width:80rem;
+  height:32rem;
+}
+
+.p2-l img{
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 11rem;
+  margin-bottom: 3rem;
+  width: 20rem;
+}
+
+.p2-r h1{
+  padding-top: 7rem;
+  padding-right: 5rem;
+  color: var(--darkc);
+}
+
+.p2-r p{
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  color:var(--gb);
+}
+
+.s2-part3{
+  margin-top: -8rem;
+  margin-bottom: 13rem
+  display: flex;
+  justify-content: space-between;
+  width:80rem;
+  height:32rem;
+}
+
+.p3-l h1{
+  padding-top: 7rem;
+  padding-left: 5rem;
+  color: var(--darkc);
+}
+
+.p3-l p{
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  color:var(--gb);
+}
+
+.p3-r img{
+  margin-top: 4rem;
+  margin-right: 3rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
+  width: 20rem;
+}
+
+.box-2{
+  box-shadow: 0.1rem 0.2rem 2.5rem #D3D3D3;
+  background:#fff;
+  border-radius: 0.6rem;
+  width:50rem;
+  margin:0 15rem;
+  margin-top: -5rem;
+  margin-bottom: 4rem;
+  height:16rem;
+}
+
+.box-2 h1{
+  color: var(--darkc);
+  padding: 4rem 7rem 0rem 9rem;
+  font-size: 1.8rem;
+}
+
+.box-2 button{
+  margin: 2rem 15rem 6rem 15rem;
+  width:20rem;
+  height:4rem;
+  border-radius: 4rem;
+}
+
+footer{
+  background-color: var(--darkc);
+  height: 2.8rem;
+}
+
+.tbox{
+  color: #fff;
+  text-align: center;
+}
+
+.tbox p{
+  padding: 0.5rem 0;
+}
+
+.tbox span{
+  padding-left: 1rem;
+}
+.tbox a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+section{
+  background: #fff
+}
+
+.box-3{
+  height:4rem;
+  background: #fff;
+}
+
+.box-3 h1{
+  color: #fff;
+}
